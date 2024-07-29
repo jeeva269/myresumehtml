@@ -19,6 +19,7 @@
 
 .rightBox {
     width: 100%;
+    padding-left: 50px;
 }
 
 .user-image {
@@ -36,11 +37,9 @@
     font-family: "Anton", sans-serif;
     text-transform: uppercase;
     font-size: 40px;
-    padding-left: 20px;
 }
 
 .name-con>h5 {
-    padding-left: 20px;
     text-transform: uppercase;
     font-size: 25px;
     font-family: "Noto Sans JP", sans-serif;
@@ -99,9 +98,22 @@
     font-size: 13px;
 }
 
-.skills-sup-con>h5 {
-    text-transform: uppercase;
-    margin-top: 15px;
+.skills-sup-con {
+    font-size: 18px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+
+.hobbies-sup-con {
+    font-size: 19px;
+    line-height: 35px;
+}
+
+.Language-sup-con {
+    font-size: 19px;
+    line-height: 35px;
 }
 
 .per-con {
@@ -116,4 +128,39 @@
     background-color: white;
     width: 52%;
     height: 10px;
+}
+
+.right-site-title {
+    border-bottom: 2px solid gray;
+    display: flex;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.right-site-title>.icon-con {
+    width: 50;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.right-site-title>h3 {
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+.right-site-con,
+.desc {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+
+.right-site-con>.des>.des-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
 }
